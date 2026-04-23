@@ -1,0 +1,4 @@
+command_id,command_name,command_response
+1,who are you,I am your math chatbot.
+2,what can you do,"I can solve arithmetic, equations, percents, fractions, and database-backed trigger words."
+3,help me,"Ask me math questions, or use the tools on the right side of the app."

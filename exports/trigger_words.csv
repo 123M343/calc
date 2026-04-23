@@ -1,0 +1,20 @@
+trigger_id,trigger_word,action_id
+18,345 divided 4,4
+1,add,1
+3,combine,1
+8,decrease,2
+12,divide,4
+19,divided,4
+15,half,5
+5,increase,1
+7,minus,2
+10,multiply,3
+13,over,4
+16,percent,6
+17,percentage,6
+2,plus,1
+9,remove,2
+14,split,4
+6,subtract,2
+4,sum,1
+11,times,3

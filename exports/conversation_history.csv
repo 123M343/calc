@@ -1,0 +1,185 @@
+message_id,sender,message_text,created_at
+1,bot,Hello! I am your math chatbot.,2026-04-21 21:29:44
+2,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:29:44
+3,user,hi,2026-04-21 21:29:53
+4,user,hi,2026-04-21 21:29:53
+5,bot,Hey! Ready to solve some math?,2026-04-21 21:29:53
+6,user,4 divied 2,2026-04-21 21:30:12
+7,user,4 divied 2,2026-04-21 21:30:12
+8,bot,2.0,2026-04-21 21:30:12
+9,user,plus 8,2026-04-21 21:30:16
+10,user,plus 8,2026-04-21 21:30:16
+11,bot,10.0,2026-04-21 21:30:16
+12,user,minus 3,2026-04-21 21:30:20
+13,user,minus 3,2026-04-21 21:30:21
+14,bot,7.0,2026-04-21 21:30:21
+15,user,half,2026-04-21 21:30:24
+16,user,half,2026-04-21 21:30:24
+17,bot,I could not find a number to use.,2026-04-21 21:30:24
+18,user,whats is half of 7,2026-04-21 21:30:30
+19,user,whats is half of 7,2026-04-21 21:30:31
+20,bot,3.5,2026-04-21 21:30:31
+21,user,+2,2026-04-21 21:30:33
+22,user,+2,2026-04-21 21:30:34
+23,bot,"Final Answer:
+2.00000000000000",2026-04-21 21:30:34
+24,user,add 2,2026-04-21 21:30:45
+25,user,add 2,2026-04-21 21:30:45
+26,bot,5.5,2026-04-21 21:30:45
+27,user,add,2026-04-21 21:30:55
+28,user,add,2026-04-21 21:30:56
+29,bot,I could not find a number to use.,2026-04-21 21:30:56
+30,user,add 3,2026-04-21 21:30:58
+31,user,add 3,2026-04-21 21:30:58
+32,bot,8.5,2026-04-21 21:30:58
+33,bot,Hello! I am your math chatbot.,2026-04-21 21:41:51
+34,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:41:51
+35,bot,Hello! I am your math chatbot.,2026-04-21 21:41:59
+36,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:41:59
+37,user,whats 2 plus 2,2026-04-21 21:42:11
+38,user,whats 2 plus 2,2026-04-21 21:42:11
+39,bot,I could not calculate that.,2026-04-21 21:42:11
+40,bot,Hey! Ready to solve some math?,2026-04-21 21:44:05
+41,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:44:05
+42,user,whats 2 plus 2,2026-04-21 21:44:14
+43,user,whats 2 plus 2,2026-04-21 21:44:15
+44,bot,"Final Answer:
+4.00000000000000",2026-04-21 21:44:15
+45,user,dived 2,2026-04-21 21:44:19
+46,user,dived 2,2026-04-21 21:44:20
+47,bot,There is no previous result to use yet.,2026-04-21 21:44:20
+48,user,2 minus 2,2026-04-21 21:44:31
+49,user,2 minus 2,2026-04-21 21:44:31
+50,bot,"Final Answer:
+0",2026-04-21 21:44:31
+51,user,add 4,2026-04-21 21:44:39
+52,user,add 4,2026-04-21 21:44:40
+53,bot,There is no previous result to use yet.,2026-04-21 21:44:40
+54,bot,Hi there! What would you like to calculate?,2026-04-21 21:47:24
+55,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:47:24
+56,user,whats 2 plus 2,2026-04-21 21:47:34
+57,user,whats 2 plus 2,2026-04-21 21:47:35
+58,bot,"Final Answer:
+4",2026-04-21 21:47:35
+59,user,/ 2,2026-04-21 21:47:38
+60,user,/ 2,2026-04-21 21:47:38
+61,bot,There is no previous result to use yet.,2026-04-21 21:47:38
+62,user,dived by 2,2026-04-21 21:47:50
+63,user,dived by 2,2026-04-21 21:47:51
+64,bot,There is no previous result to use yet.,2026-04-21 21:47:51
+65,bot,Hello! I am your math chatbot.,2026-04-21 21:51:36
+66,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:51:36
+67,bot,Hello! I am your math chatbot.,2026-04-21 21:51:44
+68,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:51:44
+69,user,whats 2 plus 2,2026-04-21 21:51:51
+70,user,whats 2 plus 2,2026-04-21 21:51:52
+71,bot,"Final Answer:
+4",2026-04-21 21:51:52
+72,user,dived by 2,2026-04-21 21:51:58
+73,user,dived by 2,2026-04-21 21:51:59
+74,bot,2.0,2026-04-21 21:51:59
+75,user,+2,2026-04-21 21:52:02
+76,user,+2,2026-04-21 21:52:03
+77,bot,"Final Answer:
+2",2026-04-21 21:52:03
+78,user,+2,2026-04-21 21:52:06
+79,user,+2,2026-04-21 21:52:06
+80,bot,"Final Answer:
+2",2026-04-21 21:52:06
+81,user,add 2,2026-04-21 21:52:14
+82,user,add 2,2026-04-21 21:52:14
+83,bot,4.0,2026-04-21 21:52:14
+84,bot,Hey! Ready to solve some math?,2026-04-21 21:52:31
+85,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:52:31
+86,bot,Hello! I am your math chatbot.,2026-04-21 21:52:39
+87,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:52:39
+88,user,add 3 + 3,2026-04-21 21:53:21
+89,user,add 3 + 3,2026-04-21 21:53:22
+90,bot,I could not calculate that.,2026-04-21 21:53:22
+91,user,add 3 to 3,2026-04-21 21:53:36
+92,user,add 3 to 3,2026-04-21 21:53:37
+93,bot,I could not calculate that.,2026-04-21 21:53:37
+94,user,3+3,2026-04-21 21:53:47
+95,user,3+3,2026-04-21 21:53:48
+96,bot,"Final Answer:
+6",2026-04-21 21:53:48
+97,user,divide by 2,2026-04-21 21:53:52
+98,user,divide by 2,2026-04-21 21:53:53
+99,bot,3.0,2026-04-21 21:53:53
+100,user,multiply by 6.5,2026-04-21 21:54:02
+101,user,multiply by 6.5,2026-04-21 21:54:03
+102,bot,19.5,2026-04-21 21:54:03
+103,user,is my dad a jerk,2026-04-21 21:56:14
+104,user,is my dad a jerk,2026-04-21 21:56:15
+105,bot,I could not calculate that.,2026-04-21 21:56:15
+106,user,hi,2026-04-21 21:56:19
+107,user,hi,2026-04-21 21:56:19
+108,bot,Hi there! What would you like to calculate?,2026-04-21 21:56:19
+109,bot,Hello! I am your math chatbot.,2026-04-21 22:17:04
+110,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 22:17:04
+111,user,add  5 to 5,2026-04-21 22:17:16
+112,user,add  5 to 5,2026-04-21 22:17:17
+113,bot,"Final Answer:
+10",2026-04-21 22:17:17
+114,user,/2,2026-04-21 22:17:20
+115,user,/2,2026-04-21 22:17:21
+116,bot,5.0,2026-04-21 22:17:21
+117,user,dived by 2,2026-04-21 22:17:28
+118,user,dived by 2,2026-04-21 22:17:28
+119,bot,2.5,2026-04-21 22:17:28
+120,user,add 3,2026-04-21 22:17:33
+121,user,add 3,2026-04-21 22:17:34
+122,bot,5.5,2026-04-21 22:17:34
+123,bot,Hello! I am your math chatbot.,2026-04-23 07:39:57
+124,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-23 07:39:57
+125,user,my father is jackass',2026-04-23 07:40:57
+126,user,my father is jackass',2026-04-23 07:40:57
+127,bot,I could not calculate that.,2026-04-23 07:40:57
+128,user,3x+2=2,2026-04-23 07:45:21
+129,user,3x+2=2,2026-04-23 07:45:21
+130,bot,"You’re solving a linear equation:
+3*x+2=2
+
+Step 1: Move everything to one side
+3*x = 0
+Step 2: Solve for x
+x = 0
+
+Final Answer:
+x = 0",2026-04-23 07:45:21
+131,user,6 divided by 2,2026-04-23 07:45:52
+132,user,6 divided by 2,2026-04-23 07:45:52
+133,bot,"Final Answer:
+3",2026-04-23 07:45:52
+134,user,345 divided 4,2026-04-23 07:46:03
+135,user,345 divided 4,2026-04-23 07:46:03
+136,bot,I could not calculate that.,2026-04-23 07:46:03
+137,user,show tables,2026-04-23 07:47:18
+138,user,show tables,2026-04-23 07:47:18
+139,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-23 07:47:18
+140,user,teach 345 divided 4 division,2026-04-23 07:47:52
+141,bot,"Added ""345 divided 4"" to action ""division"".",2026-04-23 07:47:52
+142,user,345 divided 4,2026-04-23 07:48:02
+143,user,345 divided 4,2026-04-23 07:48:03
+144,bot,I could not calculate that.,2026-04-23 07:48:03
+145,user,teach 345 divided 4 division,2026-04-23 07:48:22
+146,bot,"""345 divided 4"" is already stored for ""division"".",2026-04-23 07:48:22
+147,user,teach divided division,2026-04-23 07:48:35
+148,bot,"Added ""divided"" to action ""division"".",2026-04-23 07:48:35
+149,user,345 divided 4,2026-04-23 07:48:44
+150,user,345 divided 4,2026-04-23 07:48:45
+151,bot,I could not calculate that.,2026-04-23 07:48:45
+152,user,24 divided 3,2026-04-23 07:48:52
+153,user,24 divided 3,2026-04-23 07:48:52
+154,bot,I could not calculate that.,2026-04-23 07:48:52
+155,user,2 add 4,2026-04-23 07:49:07
+156,user,2 add 4,2026-04-23 07:49:08
+157,bot,"Final Answer:
+6",2026-04-23 07:49:08
+158,user,divided,2026-04-23 07:49:21
+159,user,divided,2026-04-23 07:49:21
+160,bot,That variable does not exist yet.,2026-04-23 07:49:21
+161,user,teach divided division,2026-04-23 07:49:29
+162,bot,"""divided"" is already stored for ""division"".",2026-04-23 07:49:29
+163,user,export csv,2026-04-23 07:49:36
+164,user,export csv,2026-04-23 07:49:37

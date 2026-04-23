@@ -1,0 +1,18 @@
+response_id,response_key,response_text
+1,greeting1,Hello! I am your math chatbot.
+2,greeting2,Hey! Ready to solve some math?
+3,greeting3,Hi there! What would you like to calculate?
+4,help,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +"
+5,goodbye,Goodbye!
+6,no_math_found,I could not find math in that message.
+7,undefined_variable,That variable does not exist yet.
+8,divide_by_zero,You cannot divide by zero.
+9,invalid_variable,That variable name is invalid.
+10,calc_error,I could not calculate that.
+11,no_previous_result,There is no previous result to use yet.
+12,no_number_found,I could not find a number to use.
+13,history_cleared,Conversation history cleared.
+14,teach_format,Use: teach <word> <action>
+15,invalid_action,That action is not valid.
+16,word_added,"Added ""{word}"" to action ""{action}""."
+17,word_exists,"""{word}"" is already stored for ""{action}""."
