@@ -219,3 +219,28 @@ Traceback (most recent call last):
     2 45 / 4
       ^^
 SyntaxError: invalid syntax
+2026-04-23 11:08:28,643 | ERROR | calculator failed
+Traceback (most recent call last):
+  File "/Users/matthewberkis/VisualStudioCode/calc/math_logic.py", line 194, in calculator
+    result = safe_eval_expr(expr)
+  File "/Users/matthewberkis/VisualStudioCode/calc/math_logic.py", line 89, in safe_eval_expr
+    tree = ast.parse(expr, mode="eval")
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    +
+SyntaxError: invalid syntax
+2026-04-23 14:13:33,827 | ERROR | calculator failed
+Traceback (most recent call last):
+  File "/Users/matthewberkis/VisualStudioCode/calc/math_logic.py", line 194, in calculator
+    result = safe_eval_expr(expr)
+  File "/Users/matthewberkis/VisualStudioCode/calc/math_logic.py", line 89, in safe_eval_expr
+    tree = ast.parse(expr, mode="eval")
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    4 time 3
+      ^^^^
+SyntaxError: invalid syntax
