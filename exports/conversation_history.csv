@@ -1,185 +1,507 @@
 message_id,sender,message_text,created_at
-1,bot,Hello! I am your math chatbot.,2026-04-21 21:29:44
-2,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:29:44
-3,user,hi,2026-04-21 21:29:53
-4,user,hi,2026-04-21 21:29:53
-5,bot,Hey! Ready to solve some math?,2026-04-21 21:29:53
-6,user,4 divied 2,2026-04-21 21:30:12
-7,user,4 divied 2,2026-04-21 21:30:12
-8,bot,2.0,2026-04-21 21:30:12
-9,user,plus 8,2026-04-21 21:30:16
-10,user,plus 8,2026-04-21 21:30:16
-11,bot,10.0,2026-04-21 21:30:16
-12,user,minus 3,2026-04-21 21:30:20
-13,user,minus 3,2026-04-21 21:30:21
-14,bot,7.0,2026-04-21 21:30:21
-15,user,half,2026-04-21 21:30:24
-16,user,half,2026-04-21 21:30:24
-17,bot,I could not find a number to use.,2026-04-21 21:30:24
-18,user,whats is half of 7,2026-04-21 21:30:30
-19,user,whats is half of 7,2026-04-21 21:30:31
-20,bot,3.5,2026-04-21 21:30:31
-21,user,+2,2026-04-21 21:30:33
-22,user,+2,2026-04-21 21:30:34
-23,bot,"Final Answer:
-2.00000000000000",2026-04-21 21:30:34
-24,user,add 2,2026-04-21 21:30:45
-25,user,add 2,2026-04-21 21:30:45
-26,bot,5.5,2026-04-21 21:30:45
-27,user,add,2026-04-21 21:30:55
-28,user,add,2026-04-21 21:30:56
-29,bot,I could not find a number to use.,2026-04-21 21:30:56
-30,user,add 3,2026-04-21 21:30:58
-31,user,add 3,2026-04-21 21:30:58
-32,bot,8.5,2026-04-21 21:30:58
-33,bot,Hello! I am your math chatbot.,2026-04-21 21:41:51
-34,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:41:51
-35,bot,Hello! I am your math chatbot.,2026-04-21 21:41:59
-36,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:41:59
-37,user,whats 2 plus 2,2026-04-21 21:42:11
-38,user,whats 2 plus 2,2026-04-21 21:42:11
-39,bot,I could not calculate that.,2026-04-21 21:42:11
-40,bot,Hey! Ready to solve some math?,2026-04-21 21:44:05
-41,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:44:05
-42,user,whats 2 plus 2,2026-04-21 21:44:14
-43,user,whats 2 plus 2,2026-04-21 21:44:15
-44,bot,"Final Answer:
-4.00000000000000",2026-04-21 21:44:15
-45,user,dived 2,2026-04-21 21:44:19
-46,user,dived 2,2026-04-21 21:44:20
-47,bot,There is no previous result to use yet.,2026-04-21 21:44:20
-48,user,2 minus 2,2026-04-21 21:44:31
-49,user,2 minus 2,2026-04-21 21:44:31
-50,bot,"Final Answer:
-0",2026-04-21 21:44:31
-51,user,add 4,2026-04-21 21:44:39
-52,user,add 4,2026-04-21 21:44:40
-53,bot,There is no previous result to use yet.,2026-04-21 21:44:40
-54,bot,Hi there! What would you like to calculate?,2026-04-21 21:47:24
-55,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:47:24
-56,user,whats 2 plus 2,2026-04-21 21:47:34
-57,user,whats 2 plus 2,2026-04-21 21:47:35
-58,bot,"Final Answer:
-4",2026-04-21 21:47:35
-59,user,/ 2,2026-04-21 21:47:38
-60,user,/ 2,2026-04-21 21:47:38
-61,bot,There is no previous result to use yet.,2026-04-21 21:47:38
-62,user,dived by 2,2026-04-21 21:47:50
-63,user,dived by 2,2026-04-21 21:47:51
-64,bot,There is no previous result to use yet.,2026-04-21 21:47:51
-65,bot,Hello! I am your math chatbot.,2026-04-21 21:51:36
-66,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:51:36
-67,bot,Hello! I am your math chatbot.,2026-04-21 21:51:44
-68,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:51:44
-69,user,whats 2 plus 2,2026-04-21 21:51:51
-70,user,whats 2 plus 2,2026-04-21 21:51:52
-71,bot,"Final Answer:
-4",2026-04-21 21:51:52
-72,user,dived by 2,2026-04-21 21:51:58
-73,user,dived by 2,2026-04-21 21:51:59
-74,bot,2.0,2026-04-21 21:51:59
-75,user,+2,2026-04-21 21:52:02
-76,user,+2,2026-04-21 21:52:03
-77,bot,"Final Answer:
-2",2026-04-21 21:52:03
-78,user,+2,2026-04-21 21:52:06
-79,user,+2,2026-04-21 21:52:06
-80,bot,"Final Answer:
-2",2026-04-21 21:52:06
-81,user,add 2,2026-04-21 21:52:14
-82,user,add 2,2026-04-21 21:52:14
-83,bot,4.0,2026-04-21 21:52:14
-84,bot,Hey! Ready to solve some math?,2026-04-21 21:52:31
-85,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:52:31
-86,bot,Hello! I am your math chatbot.,2026-04-21 21:52:39
-87,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 21:52:39
-88,user,add 3 + 3,2026-04-21 21:53:21
-89,user,add 3 + 3,2026-04-21 21:53:22
-90,bot,I could not calculate that.,2026-04-21 21:53:22
-91,user,add 3 to 3,2026-04-21 21:53:36
-92,user,add 3 to 3,2026-04-21 21:53:37
-93,bot,I could not calculate that.,2026-04-21 21:53:37
-94,user,3+3,2026-04-21 21:53:47
-95,user,3+3,2026-04-21 21:53:48
-96,bot,"Final Answer:
-6",2026-04-21 21:53:48
-97,user,divide by 2,2026-04-21 21:53:52
-98,user,divide by 2,2026-04-21 21:53:53
-99,bot,3.0,2026-04-21 21:53:53
-100,user,multiply by 6.5,2026-04-21 21:54:02
-101,user,multiply by 6.5,2026-04-21 21:54:03
-102,bot,19.5,2026-04-21 21:54:03
-103,user,is my dad a jerk,2026-04-21 21:56:14
-104,user,is my dad a jerk,2026-04-21 21:56:15
-105,bot,I could not calculate that.,2026-04-21 21:56:15
-106,user,hi,2026-04-21 21:56:19
-107,user,hi,2026-04-21 21:56:19
-108,bot,Hi there! What would you like to calculate?,2026-04-21 21:56:19
-109,bot,Hello! I am your math chatbot.,2026-04-21 22:17:04
-110,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-21 22:17:04
-111,user,add  5 to 5,2026-04-21 22:17:16
-112,user,add  5 to 5,2026-04-21 22:17:17
-113,bot,"Final Answer:
-10",2026-04-21 22:17:17
-114,user,/2,2026-04-21 22:17:20
-115,user,/2,2026-04-21 22:17:21
-116,bot,5.0,2026-04-21 22:17:21
-117,user,dived by 2,2026-04-21 22:17:28
-118,user,dived by 2,2026-04-21 22:17:28
-119,bot,2.5,2026-04-21 22:17:28
-120,user,add 3,2026-04-21 22:17:33
-121,user,add 3,2026-04-21 22:17:34
-122,bot,5.5,2026-04-21 22:17:34
-123,bot,Hello! I am your math chatbot.,2026-04-23 07:39:57
-124,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-23 07:39:57
-125,user,my father is jackass',2026-04-23 07:40:57
-126,user,my father is jackass',2026-04-23 07:40:57
-127,bot,I could not calculate that.,2026-04-23 07:40:57
-128,user,3x+2=2,2026-04-23 07:45:21
-129,user,3x+2=2,2026-04-23 07:45:21
-130,bot,"You’re solving a linear equation:
-3*x+2=2
+257,bot,Conversation history cleared.,2026-04-23 08:47:16
+258,user,3x^2+8x,2026-04-23 08:48:10
+259,user,3x^2+8x,2026-04-23 08:48:10
+260,bot,"You’re solving a quadratic equation:
+3*x**2+8*x = 0
 
-Step 1: Move everything to one side
-3*x = 0
-Step 2: Solve for x
+Step 1: Factor
+3*x**2 + 8*x = x*(3*x + 8)
+Step 2: Set each factor equal to 0
+Step 3: Solve
+x = -2.6666666667
 x = 0
 
 Final Answer:
-x = 0",2026-04-23 07:45:21
-131,user,6 divided by 2,2026-04-23 07:45:52
-132,user,6 divided by 2,2026-04-23 07:45:52
-133,bot,"Final Answer:
-3",2026-04-23 07:45:52
-134,user,345 divided 4,2026-04-23 07:46:03
-135,user,345 divided 4,2026-04-23 07:46:03
-136,bot,I could not calculate that.,2026-04-23 07:46:03
-137,user,show tables,2026-04-23 07:47:18
-138,user,show tables,2026-04-23 07:47:18
-139,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-23 07:47:18
-140,user,teach 345 divided 4 division,2026-04-23 07:47:52
-141,bot,"Added ""345 divided 4"" to action ""division"".",2026-04-23 07:47:52
-142,user,345 divided 4,2026-04-23 07:48:02
-143,user,345 divided 4,2026-04-23 07:48:03
-144,bot,I could not calculate that.,2026-04-23 07:48:03
-145,user,teach 345 divided 4 division,2026-04-23 07:48:22
-146,bot,"""345 divided 4"" is already stored for ""division"".",2026-04-23 07:48:22
-147,user,teach divided division,2026-04-23 07:48:35
-148,bot,"Added ""divided"" to action ""division"".",2026-04-23 07:48:35
-149,user,345 divided 4,2026-04-23 07:48:44
-150,user,345 divided 4,2026-04-23 07:48:45
-151,bot,I could not calculate that.,2026-04-23 07:48:45
-152,user,24 divided 3,2026-04-23 07:48:52
-153,user,24 divided 3,2026-04-23 07:48:52
-154,bot,I could not calculate that.,2026-04-23 07:48:52
-155,user,2 add 4,2026-04-23 07:49:07
-156,user,2 add 4,2026-04-23 07:49:08
-157,bot,"Final Answer:
-6",2026-04-23 07:49:08
-158,user,divided,2026-04-23 07:49:21
-159,user,divided,2026-04-23 07:49:21
-160,bot,That variable does not exist yet.,2026-04-23 07:49:21
-161,user,teach divided division,2026-04-23 07:49:29
-162,bot,"""divided"" is already stored for ""division"".",2026-04-23 07:49:29
-163,user,export csv,2026-04-23 07:49:36
-164,user,export csv,2026-04-23 07:49:37
+x = -2.6666666667 and x = 0",2026-04-23 08:48:10
+261,bot,Hey! Ready to solve some math?,2026-04-23 10:02:46
+262,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-23 10:02:46
+263,user,add,2026-04-23 11:08:28
+264,user,add,2026-04-23 11:08:28
+265,bot,I could not calculate that.,2026-04-23 11:08:28
+266,user,teach add addition,2026-04-23 11:08:33
+267,bot,"""add"" is already stored for ""addition"".",2026-04-23 11:08:33
+268,user,teach plus addition,2026-04-23 11:08:50
+269,bot,"""plus"" is already stored for ""addition"".",2026-04-23 11:08:50
+270,user,teach sub subtraction,2026-04-23 11:09:00
+271,bot,"Added ""sub"" to action ""subtraction"".",2026-04-23 11:09:00
+272,user,search all,2026-04-23 11:09:15
+273,user,search all,2026-04-23 11:09:15
+274,bot,"Conversation History:
+[2026-04-23 11:09:15] user: search all
+[2026-04-23 11:09:15] user: search all",2026-04-23 11:09:15
+275,user,who are you,2026-04-23 11:09:48
+276,user,who are you,2026-04-23 11:09:48
+277,bot,I am your math chatbot.,2026-04-23 11:09:48
+278,user,hi,2026-04-23 11:09:51
+279,user,hi,2026-04-23 11:09:52
+280,bot,Hi there! What would you like to calculate?,2026-04-23 11:09:52
+281,user,search all,2026-04-23 13:05:21
+282,user,search all,2026-04-23 13:05:22
+283,bot,"Conversation History:
+[2026-04-23 13:05:22] user: search all
+[2026-04-23 13:05:21] user: search all
+[2026-04-23 11:09:15] user: search all
+[2026-04-23 11:09:15] user: search all
+[2026-04-23 11:09:15] bot: Conversation History:
+[2026-04-23 11:09:15] user: search all
+[2026-04-23 11:09:15] user: search all",2026-04-23 13:05:22
+284,bot,Hey! Ready to solve some math?,2026-04-23 14:06:39
+285,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-23 14:06:39
+286,user,hi,2026-04-23 14:13:12
+287,user,hi,2026-04-23 14:13:13
+288,bot,Hello! I am your math chatbot.,2026-04-23 14:13:13
+289,user,what time,2026-04-23 14:13:17
+290,user,what time,2026-04-23 14:13:17
+291,bot,That variable does not exist yet.,2026-04-23 14:13:17
+292,user,4 time 3,2026-04-23 14:13:33
+293,user,4 time 3,2026-04-23 14:13:33
+294,bot,I could not calculate that.,2026-04-23 14:13:33
+295,user,teach time multiplication,2026-04-23 14:13:41
+296,bot,"Added ""time"" to action ""multiplication"".",2026-04-23 14:13:41
+297,user,4 time 3,2026-04-23 14:13:49
+298,user,4 time 3,2026-04-23 14:13:49
+299,bot,"Final Answer:
+12",2026-04-23 14:13:49
+300,user,32 times 2,2026-04-23 14:14:21
+301,user,32 times 2,2026-04-23 14:14:22
+302,bot,"Final Answer:
+64",2026-04-23 14:14:22
+303,user,32 sub 3,2026-04-23 14:14:29
+304,user,32 sub 3,2026-04-23 14:14:30
+305,bot,"Final Answer:
+29",2026-04-23 14:14:30
+306,user,x^2+4x+8,2026-04-23 14:25:19
+307,user,x^2+4x+8,2026-04-23 14:25:19
+308,bot,"You’re solving a quadratic equation:
+x**2+4*x+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 4, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -16
+Step 3: Solve
+x = -2 - 2*I
+x = -2 + 2*I
+
+Final Answer:
+x = -2 - 2*I and x = -2 + 2*I",2026-04-23 14:25:19
+309,user,x^2+8,2026-04-23 14:26:07
+310,user,x^2+8,2026-04-23 14:26:07
+311,bot,"You’re solving a quadratic equation:
+x**2+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 0, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -32
+Step 3: Solve
+x = -2*sqrt(2)*I
+x = 2*sqrt(2)*I
+
+Final Answer:
+x = -2*sqrt(2)*I and x = 2*sqrt(2)*I",2026-04-23 14:26:08
+312,user,"if x  = 1, then x+ 1 =",2026-04-23 14:26:32
+313,user,"if x  = 1, then x+ 1 =",2026-04-23 14:26:33
+314,bot,That variable name is invalid.,2026-04-23 14:26:33
+315,user,search if,2026-04-23 14:30:52
+316,user,search if,2026-04-23 14:30:53
+317,bot,"Conversation History:
+[2026-04-23 14:30:53] user: search if
+[2026-04-23 14:30:52] user: search if
+[2026-04-23 14:26:33] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:32] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:08] bot: You’re solving a quadratic equation:
+x**2+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 0, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -32
+Step 3: Solve
+x = -2*sqrt(2)*I
+x = 2*sqrt(2)*I
+
+Final Answer:
+x = -2*sqrt(2)*I and x = 2*sqrt(2)*I
+[2026-04-23 14:25:19] bot: You’re solving a quadratic equation:
+x**2+4*x+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 4, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -16
+Step 3: Solve
+x = -2 - 2*I
+x = -2 + 2*I
+
+Final Answer:
+x = -2 - 2*I and x = -2 + 2*I",2026-04-23 14:30:53
+318,user,search if,2026-04-23 14:30:59
+319,user,search if,2026-04-23 14:31:00
+320,bot,"Conversation History:
+[2026-04-23 14:31:00] user: search if
+[2026-04-23 14:30:59] user: search if
+[2026-04-23 14:30:53] user: search if
+[2026-04-23 14:30:53] bot: Conversation History:
+[2026-04-23 14:30:53] user: search if
+[2026-04-23 14:30:52] user: search if
+[2026-04-23 14:26:33] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:32] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:08] bot: You’re solving a quadratic equation:
+x**2+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 0, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -32
+Step 3: Solve
+x = -2*sqrt(2)*I
+x = 2*sqrt(2)*I
+
+Final Answer:
+x = -2*sqrt(2)*I and x = 2*sqrt(2)*I
+[2026-04-23 14:25:19] bot: You’re solving a quadratic equation:
+x**2+4*x+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 4, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -16
+Step 3: Solve
+x = -2 - 2*I
+x = -2 + 2*I
+
+Final Answer:
+x = -2 - 2*I and x = -2 + 2*I
+[2026-04-23 14:30:52] user: search if
+[2026-04-23 14:26:33] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:32] user: if x  = 1, then x+ 1 =
+[2026-04-23 14:26:08] bot: You’re solving a quadratic equation:
+x**2+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 0, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -32
+Step 3: Solve
+x = -2*sqrt(2)*I
+x = 2*sqrt(2)*I
+
+Final Answer:
+x = -2*sqrt(2)*I and x = 2*sqrt(2)*I
+[2026-04-23 14:25:19] bot: You’re solving a quadratic equation:
+x**2+4*x+8 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 4, c = 8
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = -16
+Step 3: Solve
+x = -2 - 2*I
+x = -2 + 2*I
+
+Final Answer:
+x = -2 - 2*I and x = -2 + 2*I",2026-04-23 14:31:00
+321,user,search data,2026-04-23 14:33:27
+322,user,search data,2026-04-23 14:33:28
+323,bot,"Conversation History:
+[2026-04-23 14:33:28] user: search data
+[2026-04-23 14:33:27] user: search data
+
+Custom Commands:
+what can you do -> I can solve arithmetic, equations, percents, fractions, and database-backed trigger words.",2026-04-23 14:33:28
+324,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-23 14:34:03
+325,bot,Tables in studentdb: students,2026-04-23 14:34:04
+326,bot,Tables in studentdb: students,2026-04-23 14:34:05
+327,user,2 plus 2,2026-04-23 16:02:16
+328,user,2 plus 2,2026-04-23 16:02:17
+329,bot,"Final Answer:
+4",2026-04-23 16:02:17
+330,user,teach add addition,2026-04-23 16:02:52
+331,bot,"""add"" is already stored for ""addition"".",2026-04-23 16:02:52
+332,user,show tables,2026-04-23 16:03:23
+333,user,show tables,2026-04-23 16:03:23
+334,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-23 16:03:23
+335,user,show tables,2026-04-23 16:03:27
+336,user,show tables,2026-04-23 16:03:28
+337,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-23 16:03:28
+338,user,x^2+8x+4,2026-04-23 16:03:41
+339,user,x^2+8x+4,2026-04-23 16:03:41
+340,bot,"You’re solving a quadratic equation:
+x**2+8*x+4 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 8, c = 4
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = 48
+Step 3: Solve
+x = -7.4641016151
+x = -0.5358983849
+
+Final Answer:
+x = -7.4641016151 and x = -0.5358983849",2026-04-23 16:03:41
+341,bot,Hi there! What would you like to calculate?,2026-04-25 13:40:43
+342,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-25 13:40:43
+343,user,3 add 3,2026-04-25 13:40:56
+344,user,3 add 3,2026-04-25 13:40:56
+345,bot,"Final Answer:
+6",2026-04-25 13:40:56
+346,bot,Hi there! What would you like to calculate?,2026-04-25 14:50:18
+347,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-25 14:50:18
+348,user,3 add 3,2026-04-25 14:50:24
+349,user,3 add 3,2026-04-25 14:50:25
+350,bot,"Final Answer:
+6",2026-04-25 14:50:25
+351,user,/ 2,2026-04-25 14:50:27
+352,user,/ 2,2026-04-25 14:50:28
+353,bot,3.0,2026-04-25 14:50:28
+354,user,+ 2,2026-04-25 14:50:31
+355,user,+ 2,2026-04-25 14:50:31
+356,bot,"Final Answer:
+2",2026-04-25 14:50:32
+357,bot,Hi there! What would you like to calculate?,2026-04-25 14:52:04
+358,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-25 14:52:04
+359,bot,Hello! I am your math chatbot.,2026-04-25 15:04:05
+360,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-25 15:04:05
+361,bot,Hi there! What would you like to calculate?,2026-04-28 13:27:08
+362,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-28 13:27:08
+363,user,2 plus 3,2026-04-28 13:27:17
+364,user,2 plus 3,2026-04-28 13:27:17
+365,bot,"Final Answer:
+5",2026-04-28 13:27:17
+366,user,/2,2026-04-28 13:27:20
+367,user,/2,2026-04-28 13:27:20
+368,bot,2.5,2026-04-28 13:27:20
+369,user,show databases,2026-04-28 13:27:30
+370,user,show databases,2026-04-28 13:27:30
+371,bot,"Databases: Chat_Bot_DB, chatbotdb, studentdb, studentdb1, studentdb2, studentdb3, testdb",2026-04-28 13:27:30
+372,user,2 add 3,2026-04-28 13:30:46
+373,user,2 add 3,2026-04-28 13:30:46
+374,bot,"Final Answer:
+5",2026-04-28 13:30:46
+375,user,teach add addition,2026-04-28 13:30:58
+376,bot,"""add"" is already stored for ""addition"".",2026-04-28 13:30:58
+377,user,5 add 4,2026-04-28 13:31:04
+378,user,5 add 4,2026-04-28 13:31:05
+379,bot,"Final Answer:
+9",2026-04-28 13:31:05
+380,user,/3,2026-04-28 13:31:07
+381,user,/3,2026-04-28 13:31:08
+382,bot,3.0,2026-04-28 13:31:08
+383,user,2 plus 3,2026-04-28 13:32:33
+384,user,2 plus 3,2026-04-28 13:32:33
+385,bot,"Final Answer:
+5",2026-04-28 13:32:33
+386,user,3 matthew 6,2026-04-28 13:32:51
+387,user,3 matthew 6,2026-04-28 13:32:52
+388,bot,I could not calculate that.,2026-04-28 13:32:52
+389,user,teach matthew multiplication,2026-04-28 13:33:06
+390,bot,"Added ""matthew"" to action ""multiplication"".",2026-04-28 13:33:06
+391,user,2 matthew 3,2026-04-28 13:33:12
+392,user,2 matthew 3,2026-04-28 13:33:13
+393,bot,"Final Answer:
+6",2026-04-28 13:33:13
+394,user,x^2+8x +4,2026-04-28 13:33:36
+395,user,x^2+8x +4,2026-04-28 13:33:37
+396,bot,"You’re solving a quadratic equation:
+x**2+8*x +4 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 8, c = 4
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = 48
+Step 3: Solve
+x = -7.4641016151
+x = -0.5358983849
+
+Final Answer:
+x = -7.4641016151 and x = -0.5358983849",2026-04-28 13:33:37
+397,user,2 matthew 4,2026-04-28 13:34:07
+398,user,2 matthew 4,2026-04-28 13:34:08
+399,bot,"Final Answer:
+8",2026-04-28 13:34:08
+400,user,export csv,2026-04-28 13:43:57
+401,user,export csv,2026-04-28 13:43:58
+402,bot,"Export complete.
+Folder: /Users/matthewberkis/VisualStudioCode/calc/exports
+Files:
+actions.csv (6 rows)
+bot_responses.csv (17 rows)
+command_aliases.csv (4 rows)
+conversation_history.csv (145 rows)
+custom_commands.csv (3 rows)
+saved_variables.csv (0 rows)
+trigger_words.csv (24 rows)",2026-04-28 13:43:58
+403,user,show last 10,2026-04-28 13:46:08
+404,user,show last 10,2026-04-28 13:46:09
+405,bot,"Last 10 Messages:
+[2026-04-28 13:33:37] user: x^2+8x +4
+[2026-04-28 13:33:37] bot: You’re solving a quadratic equation:
+x**2+8*x +4 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 8, c = 4
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = 48
+Step 3: Solve
+x = -7.4641016151
+x = -0.5358983849
+
+Final Answer:
+x = -7.4641016151 and x = -0.5358983849
+[2026-04-28 13:34:07] user: 2 matthew 4
+[2026-04-28 13:34:08] user: 2 matthew 4
+[2026-04-28 13:34:08] bot: Final Answer:
+8
+[2026-04-28 13:43:57] user: export csv
+[2026-04-28 13:43:58] user: export csv
+[2026-04-28 13:43:58] bot: Export complete.
+Folder: /Users/matthewberkis/VisualStudioCode/calc/exports
+Files:
+actions.csv (6 rows)
+bot_responses.csv (17 rows)
+command_aliases.csv (4 rows)
+conversation_history.csv (145 rows)
+custom_commands.csv (3 rows)
+saved_variables.csv (0 rows)
+trigger_words.csv (24 rows)
+[2026-04-28 13:46:08] user: show last 10
+[2026-04-28 13:46:09] user: show last 10",2026-04-28 13:46:09
+406,user,show tables,2026-04-28 13:46:16
+407,user,show tables,2026-04-28 13:46:16
+408,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-28 13:46:16
+409,user,search matthew,2026-04-28 13:47:14
+410,user,search matthew,2026-04-28 13:47:15
+411,bot,"Conversation History:
+[2026-04-28 13:47:15] user: search matthew
+[2026-04-28 13:47:14] user: search matthew
+[2026-04-28 13:46:09] bot: Last 10 Messages:
+[2026-04-28 13:33:37] user: x^2+8x +4
+[2026-04-28 13:33:37] bot: You’re solving a quadratic equation:
+x**2+8*x +4 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 8, c = 4
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = 48
+Step 3: Solve
+x = -7.4641016151
+x = -0.5358983849
+
+Final Answer:
+x = -7.4641016151 and x = -0.5358983849
+[2026-04-28 13:34:07] user: 2 matthew 4
+[2026-04-28 13:34:08] user: 2 matthew 4
+[2026-04-28 13:34:08] bot: Final Answer:
+8
+[2026-04-28 13:43:57] user: export csv
+[2026-04-28 13:43:58] user: export csv
+[2026-04-28 13:43:58] bot: Export complete.
+Folder: /Users/matthewberkis/VisualStudioCode/calc/exports
+Files:
+actions.csv (6 rows)
+bot_responses.csv (17 rows)
+command_aliases.csv (4 rows)
+conversation_history.csv (145 rows)
+custom_commands.csv (3 rows)
+saved_variables.csv (0 rows)
+trigger_words.csv (24 rows)
+[2026-04-28 13:46:08] user: show last 10
+[2026-04-28 13:46:09] user: show last 10
+[2026-04-28 13:43:58] bot: Export complete.
+Folder: /Users/matthewberkis/VisualStudioCode/calc/exports
+Files:
+actions.csv (6 rows)
+bot_responses.csv (17 rows)
+command_aliases.csv (4 rows)
+conversation_history.csv (145 rows)
+custom_commands.csv (3 rows)
+saved_variables.csv (0 rows)
+trigger_words.csv (24 rows)
+[2026-04-28 13:34:08] user: 2 matthew 4
+[2026-04-28 13:34:07] user: 2 matthew 4
+[2026-04-28 13:33:13] user: 2 matthew 3
+[2026-04-28 13:33:12] user: 2 matthew 3
+[2026-04-28 13:33:06] user: teach matthew multiplication
+[2026-04-28 13:33:06] bot: Added ""matthew"" to action ""multiplication"".
+
+Trigger Words:
+matthew -> multiplication (*)",2026-04-28 13:47:15
+412,user,/0,2026-04-28 13:48:42
+413,user,/0,2026-04-28 13:48:43
+414,bot,You cannot divide by zero.,2026-04-28 13:48:43
+415,user,2=2,2026-04-28 13:49:04
+416,user,2=2,2026-04-28 13:49:05
+417,bot,That variable name is invalid.,2026-04-28 13:49:05
+418,user,0/0,2026-04-28 13:49:18
+419,user,0/0,2026-04-28 13:49:18
+420,bot,"Final Answer:
+nan",2026-04-28 13:49:18
+421,bot,Hello! I am your math chatbot.,2026-04-28 15:52:37
+422,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-28 15:52:37
+423,bot,Hello! I am your math chatbot.,2026-04-28 16:24:31
+424,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-28 16:24:31
+425,user,3 add 3,2026-04-28 16:25:00
+426,user,3 add 3,2026-04-28 16:25:00
+427,bot,"Final Answer:
+6",2026-04-28 16:25:00
+428,user,x^2+8x+2,2026-04-28 16:25:18
+429,user,x^2+8x+2,2026-04-28 16:25:19
+430,bot,"You’re solving a quadratic equation:
+x**2+8*x+2 = 0
+
+Step 1: Identify a, b, and c
+a = 1, b = 8, c = 2
+Step 2: Use the quadratic formula
+x = (-b ± √(b² - 4ac)) / (2a)
+Discriminant = 56
+Step 3: Solve
+x = -7.7416573868
+x = -0.2583426132
+
+Final Answer:
+x = -7.7416573868 and x = -0.2583426132",2026-04-28 16:25:19
+431,user,hi,2026-04-28 16:27:02
+432,user,hi,2026-04-28 16:27:03
+433,bot,Hi there! What would you like to calculate?,2026-04-28 16:27:03
+434,user,hi,2026-04-28 19:08:43
+435,user,hi,2026-04-28 19:08:43
+436,bot,You already said hello. Try asking a math question.,2026-04-28 19:08:43
+437,user,2 polus 2,2026-04-28 19:08:55
+438,user,2 polus 2,2026-04-28 19:08:56
+439,bot,I could not calculate that.,2026-04-28 19:08:56
+440,user,2 pls 2,2026-04-28 19:08:59
+441,user,2 pls 2,2026-04-28 19:08:59
+442,bot,I could not calculate that.,2026-04-28 19:08:59
+443,user,2 plus 2,2026-04-28 19:09:02
+444,user,2 plus 2,2026-04-28 19:09:03
+445,bot,"Final Answer:
+4",2026-04-28 19:09:03
+446,user,2 a d d 2,2026-04-28 19:09:12
+447,user,2 a d d 2,2026-04-28 19:09:13
+448,bot,I could not calculate that.,2026-04-28 19:09:13
+449,user,2 add 2,2026-04-28 19:09:15
+450,user,2 add 2,2026-04-28 19:09:16
+451,bot,"Final Answer:
+4",2026-04-28 19:09:16
+452,bot,Hello! I am your math chatbot.,2026-04-30 22:06:45
+453,bot,"Try: what is 5 + 5, solve x^2 + 5x + 6 = 0, add 3, divide by 2, or teach add merge +",2026-04-30 22:06:45
+454,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-30 22:06:54
+455,user,show tables,2026-04-30 22:06:58
+456,user,show tables,2026-04-30 22:06:59
+457,bot,"Tables in Chat_Bot_DB: actions, bot_responses, command_aliases, conversation_history, custom_commands, saved_variables, trigger_words",2026-04-30 22:06:59
+458,user,export csv,2026-04-30 22:07:01
+459,user,export csv,2026-04-30 22:07:02

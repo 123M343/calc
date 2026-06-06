@@ -1,10 +1,15 @@
+from typing import Any, TypeAlias
+
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QTableWidget, QTableWidgetItem, QLabel
 )
 
+TableCellValue: TypeAlias = str | int | float | bool | None | Any
+TableRow: TypeAlias = tuple[TableCellValue, ...] | list[TableCellValue]
+
 
 class TableViewer(QDialog):
-    def __init__(self, table_name, headers, rows):
+    def __init__(self, table_name: str, headers: list[str], rows: list[TableRow]) -> None:
         super().__init__()
         self.setWindowTitle(f"Table Viewer - {table_name}")
         self.resize(700, 400)

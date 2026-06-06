@@ -2,7 +2,7 @@ from database_utilities import connect_db
 from logger import logger
 
 
-def search_all_data(keyword):
+def search_all_data(keyword: str) -> str:
     keyword = keyword.strip()
 
     if not keyword:
@@ -12,7 +12,7 @@ def search_all_data(keyword):
     cursor = conn.cursor()
 
     try:
-        results = []
+        results: list[str] = []
 
         # conversation_history
         cursor.execute("""
@@ -22,7 +22,7 @@ def search_all_data(keyword):
             ORDER BY created_at DESC
             LIMIT 10
         """, (f"%{keyword}%",))
-        history_rows = cursor.fetchall()
+        history_rows: list[tuple[str, str, str]] = cursor.fetchall()
 
         if history_rows:
             results.append("Conversation History:")
@@ -40,7 +40,7 @@ def search_all_data(keyword):
                OR a.symbol LIKE %s
             ORDER BY t.trigger_word
         """, (f"%{keyword}%", f"%{keyword}%", f"%{keyword}%"))
-        trigger_rows = cursor.fetchall()
+        trigger_rows: list[tuple[str, str, str]] = cursor.fetchall()
 
         if trigger_rows:
             results.append("Trigger Words:")
@@ -56,7 +56,7 @@ def search_all_data(keyword):
                OR command_response LIKE %s
             ORDER BY command_name
         """, (f"%{keyword}%", f"%{keyword}%"))
-        command_rows = cursor.fetchall()
+        command_rows: list[tuple[str, str]] = cursor.fetchall()
 
         if command_rows:
             results.append("Custom Commands:")
@@ -73,7 +73,7 @@ def search_all_data(keyword):
                OR cc.command_name LIKE %s
             ORDER BY ca.alias_text
         """, (f"%{keyword}%", f"%{keyword}%"))
-        alias_rows = cursor.fetchall()
+        alias_rows: list[tuple[str, str]] = cursor.fetchall()
 
         if alias_rows:
             results.append("Command Aliases:")
@@ -89,7 +89,7 @@ def search_all_data(keyword):
                OR variable_value LIKE %s
             ORDER BY variable_name
         """, (f"%{keyword}%", f"%{keyword}%"))
-        variable_rows = cursor.fetchall()
+        variable_rows: list[tuple[str, str]] = cursor.fetchall()
 
         if variable_rows:
             results.append("Saved Variables:")

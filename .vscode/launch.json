@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Chatbot GUI",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/chatbot_gui_qt.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Run Compact Chatbot App",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/chatbot_compact_app.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        }
+    ]
+}

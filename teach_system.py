@@ -2,14 +2,14 @@ from database_utilities import get_actions, insert_trigger_word
 from load_operations import load_operations
 
 
-def teach_trigger_word(word, action_name):
+def teach_trigger_word(word: str, action_name: str) -> str:
     success, message = insert_trigger_word(word, action_name)
     if success:
         load_operations()
     return message
 
 
-def handle_teach(user_input):
+def handle_teach(user_input: str) -> str:
     parts = user_input.strip().split()
 
     if len(parts) < 3:

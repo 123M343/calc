@@ -1,44 +1,122 @@
-import ast
-import operator
 import re
+from typing import Any, TypeAlias, cast
+
+import sympy as sp
 from bot_response import get_bot_response
 from database_utilities import load_saved_variables, save_variable_to_db
 from load_operations import replace_operation_words
 from logger import logger
+from typo_utils import correct_math_words
 
-variables = {}
-last_result = None
+SympyLocals: TypeAlias = dict[str, Any]
+variables: dict[str, Any] = {}
+last_result: Any | None = None
 
-BIN_OPS = {
-    ast.Add: operator.add,
-    ast.Sub: operator.sub,
-    ast.Mult: operator.mul,
-    ast.Div: operator.truediv,
-    ast.Pow: operator.pow
-}
-
-UNARY_OPS = {
-    ast.UAdd: operator.pos,
-    ast.USub: operator.neg
+SCIENTIFIC_CONSTANTS = {
+    "pi": sp.pi,
+    "e": sp.E,
 }
 
 
-def set_last_result(value):
+def _sympify_value(expr: str, locals_map: SympyLocals) -> Any:
+    return cast(Any, sp.sympify(expr, locals=locals_map))  # pyright: ignore[reportUnknownMemberType]
+
+
+def _numeric_value(value: Any) -> Any:
+    return cast(Any, sp.N(value))  # pyright: ignore[reportUnknownMemberType]
+
+
+def _sin_degrees(value: Any) -> Any:
+    return sp.sin(sp.pi * value / 180)
+
+
+def _cos_degrees(value: Any) -> Any:
+    return sp.cos(sp.pi * value / 180)
+
+
+def _tan_degrees(value: Any) -> Any:
+    return sp.tan(sp.pi * value / 180)
+
+
+def _asin_degrees(value: Any) -> Any:
+    result: Any = sp.asin(value)
+    return result * 180 / sp.pi
+
+
+def _acos_degrees(value: Any) -> Any:
+    result: Any = sp.acos(value)
+    return result * 180 / sp.pi
+
+
+def _atan_degrees(value: Any) -> Any:
+    result: Any = sp.atan(value)
+    return result * 180 / sp.pi
+
+
+def _log_base_10(value: Any, base: int = 10) -> Any:
+    return sp.log(value, base)
+
+
+def _sqrt_value(value: Any) -> Any:
+    return cast(Any, sp.sqrt(value))  # pyright: ignore[reportUnknownMemberType]
+
+
+def _to_radians(value: Any) -> Any:
+    return value * sp.pi / 180
+
+
+def _to_degrees(value: Any) -> Any:
+    return value * 180 / sp.pi
+
+
+SCIENTIFIC_FUNCTIONS: dict[str, Any] = {
+    "sin": _sin_degrees,
+    "cos": _cos_degrees,
+    "tan": _tan_degrees,
+    "asin": _asin_degrees,
+    "acos": _acos_degrees,
+    "atan": _atan_degrees,
+    "sind": _sin_degrees,
+    "cosd": _cos_degrees,
+    "tand": _tan_degrees,
+    "sinr": sp.sin,
+    "cosr": sp.cos,
+    "tanr": sp.tan,
+    "sqrt": _sqrt_value,
+    "ln": sp.log,
+    "log": _log_base_10,
+    "exp": sp.exp,
+    "abs": sp.Abs,
+    "factorial": sp.factorial,
+    "rad": _to_radians,
+    "deg": _to_degrees,
+}
+
+
+def get_sympy_locals() -> SympyLocals:
+    return {
+        **SCIENTIFIC_CONSTANTS,
+        **SCIENTIFIC_FUNCTIONS,
+        **variables,
+    }
+
+
+def set_last_result(value: Any) -> None:
     global last_result
     last_result = value
 
 
-def get_last_result():
+def get_last_result() -> Any:
     return last_result
 
 
-def initialize_variables():
+def initialize_variables() -> None:
     global variables
     variables = load_saved_variables()
 
 
-def normalize(text):
-    text = text.lower().strip()
+def normalize(text: str) -> str:
+    text = correct_math_words(text)
 
     fixes = {
         "what si": "what is",
@@ -57,40 +135,44 @@ def normalize(text):
     return text
 
 
-def safe_eval_expr(expr):
-    def _eval(node):
-        if isinstance(node, ast.Expression):
-            return _eval(node.body)
+def normalize_scientific_expression(expr: Any) -> str:
+    expr = str(expr).strip()
+    expr = expr.replace("π", "pi")
+    expr = expr.replace("^", "**")
+    expr = re.sub(r'(\d)\s*!', r'\1!', expr)
+    expr = re.sub(r'\bdegrees\b', "deg", expr)
+    expr = re.sub(r'\bdegree\b', "deg", expr)
+    expr = re.sub(r'\bradians\b', "rad", expr)
+    expr = re.sub(r'\bradian\b', "rad", expr)
 
-        if isinstance(node, ast.Constant):
-            if isinstance(node.value, (int, float)):
-                return node.value
-            raise ValueError("Invalid constant")
+    # sin^2(x) -> sin(x)**2
+    expr = re.sub(
+        r'\b(sin|cos|tan|asin|acos|atan|log|ln|sqrt)\s*\*\*\s*(\d+)\s*\(([^()]*)\)',
+        lambda match: f"{match.group(1)}({match.group(3)})**{match.group(2)}",
+        expr
+    )
+    expr = re.sub(
+        r'\b(sin|cos|tan|asin|acos|atan|log|ln|sqrt)\s*(\d+)\s*\(([^()]*)\)',
+        lambda match: f"{match.group(1)}({match.group(3)})**{match.group(2)}",
+        expr
+    )
 
-        if isinstance(node, ast.Name):
-            if node.id in variables:
-                return variables[node.id]
-            raise NameError(node.id)
+    expr = re.sub(r'(\d|\))\s*([a-zA-Z(])', r'\1*\2', expr)
 
-        if isinstance(node, ast.BinOp):
-            op_type = type(node.op)
-            if op_type not in BIN_OPS:
-                raise ValueError("Unsupported operator")
-            return BIN_OPS[op_type](_eval(node.left), _eval(node.right))
+    # n! -> factorial(n)
+    while re.search(r'(\b\w+\b|\([^()]+\))!', expr):
+        expr = re.sub(r'(\b\w+\b|\([^()]+\))!', r'factorial(\1)', expr)
 
-        if isinstance(node, ast.UnaryOp):
-            op_type = type(node.op)
-            if op_type not in UNARY_OPS:
-                raise ValueError("Unsupported unary operator")
-            return UNARY_OPS[op_type](_eval(node.operand))
-
-        raise ValueError("Unsupported expression")
-
-    tree = ast.parse(expr, mode="eval")
-    return _eval(tree)
+    return expr
 
 
-def extract_expression(text):
+def safe_eval_expr(expr: Any) -> Any:
+    normalized = normalize_scientific_expression(expr)
+    result: Any = _sympify_value(normalized, get_sympy_locals())
+    return _numeric_value(result)
+
+
+def extract_expression(text: str) -> str:
     text = normalize(text)
 
     filler_phrases = [
@@ -109,12 +191,12 @@ def extract_expression(text):
 
     text = " ".join(text.split())
     text = replace_operation_words(text)
-    text = text.replace("^", "**")
+    text = normalize_scientific_expression(text)
 
     return text
 
 
-def apply_followup_operation(user_input):
+def apply_followup_operation(user_input: str) -> str | None:
     global last_result
 
     text = normalize(user_input)
@@ -139,7 +221,7 @@ def apply_followup_operation(user_input):
                 return get_bot_response("divide_by_zero")
             last_result /= num
 
-        return last_result
+        return str(last_result)
 
     word_match = re.fullmatch(
         r'(add|plus|subtract|minus|multiply|times|divide)\s*(?:by)?\s*(-?\d+(?:\.\d+)?)',
@@ -163,12 +245,12 @@ def apply_followup_operation(user_input):
                 return get_bot_response("divide_by_zero")
             last_result /= num
 
-        return last_result
+        return str(last_result)
 
     return None
 
 
-def calculator(expr):
+def calculator(expr: str) -> str:
     global last_result
 
     try:
@@ -193,7 +275,7 @@ def calculator(expr):
 
         result = safe_eval_expr(expr)
         last_result = result
-        return result
+        return str(result)
 
     except NameError:
         return get_bot_response("undefined_variable")

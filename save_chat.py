@@ -2,7 +2,7 @@ from database_utilities import connect_db
 from logger import logger
 
 
-def save_message(sender, message):
+def save_message(sender: str, message: str) -> None:
     conn = connect_db("Chat_Bot_DB")
     cursor = conn.cursor()
 

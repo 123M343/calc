@@ -2,7 +2,7 @@ from database_utilities import connect_db
 from logger import logger
 
 
-def show_last_10_messages():
+def show_last_10_messages() -> str:
     conn = connect_db("Chat_Bot_DB")
     cursor = conn.cursor()
 
@@ -13,14 +13,14 @@ def show_last_10_messages():
             ORDER BY created_at DESC
             LIMIT 10
         """)
-        rows = cursor.fetchall()
+        rows: list[tuple[str, str, str]] = cursor.fetchall()
 
         if not rows:
             return "No messages found."
 
         rows.reverse()
 
-        lines = ["Last 10 Messages:"]
+        lines: list[str] = ["Last 10 Messages:"]
         for sender, message_text, created_at in rows:
             lines.append(f"[{created_at}] {sender}: {message_text}")
 
